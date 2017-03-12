@@ -1,0 +1,36 @@
+Nama		: Damar Sanggara Habibie
+NIM		: 1515015146
+Kelas Praktimum	: Kecerdasan Buatan C2 2015
+
+Tugas Modul 2
+
+1.
+a)	orang(dian). 		 % dian adalah nama orang
+b)	mobil(atoz). 		 % atoz adalah nama mobil/merk
+c)	suka(dian,atoz).	 % Diaz menyukai mobil bermerk atoz
+d)	dijual(atoz).		 % mobil ber merek atoz dijual
+e)	dapat_membeli(X,Y):-     % untuk memenuhi kondisi dapat_membeli diperlukan X dan Y
+	orang(X),    		 % X adalah orang yang ingin membeli mobil
+	mobil(Y),    		 % Y adalah Merk mobil
+	suka(X,Y),    		 % X menyukai Y  
+	dijual(Y). 		 % Y dijual
+f)	suka(_,Apa).		 % _ adalah X(orang),Apa adalah (Y)
+				   menampilkan orang(X) kemudian menampilkan apa yang disuka oleh orang(X)
+				   yang sesuai dengan suka(Y), jadi suka(_,Apa) atau suka(X,Y).
+
+
+2.
+a) 	hobi(ricky,catur)
+b)	sifat(embang,pemalas)
+c)	makan(yusida,vegetarian)
+d)	pandai(kusdiar,gitar)
+e)	mobil(sadek,merah).   
+	mobil(merah,sadek).
+	mobil(sadek,bmw).
+f)	orang(awan,piano)
+	orang(awan,pontianak)
+	orang(pontianak,jawa)	 	
+g)	baik(orang,sifat)if(penyayang,dermawan)
+h)	pintar(orang,nilaitinggi) if pintar(matematika,nilaitinggi);pintar(ipa,nilaitinggi);
+	pintar(ips,nilaitinggi).
+i)	pasti(orang,mati)
