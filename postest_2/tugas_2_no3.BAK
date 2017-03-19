@@ -1,7 +1,7 @@
 PREDICATES
 
 PREDICATES
-	nondeterm kakek(STRING,STRING)		% domain = pemdeklarasian tipe data
+	nondeterm kakek(STRING,STRING)
 	nondeterm ayah(STRING,STRING)
 	nondeterm ibu(STRING,STRING)
 	nondeterm pria(STRING)

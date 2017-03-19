@@ -22,15 +22,27 @@ f)	suka(_,Apa).		 % _ adalah X(orang),Apa adalah (Y)
 2.
 a) 	hobi(ricky,catur)
 b)	sifat(embang,pemalas)
-c)	makan(yusida,vegetarian)
+c)	makan(yusida,vegetarian),diet(yusida,vegetarian)
 d)	pandai(kusdiar,gitar)
-e)	mobil(sadek,merah).   
-	mobil(merah,sadek).
-	mobil(sadek,bmw).
-f)	orang(awan,piano)
-	orang(awan,pontianak)
-	orang(pontianak,jawa)	 	
+e)	mobil(merah,sadek,bmw)
+f)	pianis(awan,pontianak,jawa)	 	
 g)	baik(orang,sifat)if(penyayang,dermawan)
-h)	pintar(orang,nilaitinggi) if pintar(matematika,nilaitinggi);pintar(ipa,nilaitinggi);
-	pintar(ips,nilaitinggi).
+
+h)	orang(nama).
+
+	matematika(nama,90).
+	ipa(nama,70).
+	ips(nama,50).
+
+	nilai(nama,matematika,90).
+	nilai(nama,ipa,70).
+	nilai(nama,ips,50).
+
+	pintar(x):- matematika(x,y),y>80;
+		ipa(x,n),n>80;
+		ips(x,a),a>80.
+
+	goal
+	orang(nama).	
+
 i)	pasti(orang,mati)
