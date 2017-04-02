@@ -6,18 +6,15 @@ predicates
 clauses
 
 	merk("swallow","Sandal").
-	
-	merk("Adidias","Sepatu").
-	merk("Machbeth","Sepatu").
-	
-	merk("Nike","Sepatu").
 	merk("homyped","Sandal").
 	merk("ardilles","Sandal").
-	
 	merk("carvil","Sandal").
 	merk("eiger","Sandal").
 	
 	merk("Puma","Sepatu").
+	merk("Nike","Sepatu").
+	merk("Adidias","Sepatu").
+	merk("Machbeth","Sepatu").
 	merk("Reebok","Sepatu").
 	
 	jenis("Sandal").
